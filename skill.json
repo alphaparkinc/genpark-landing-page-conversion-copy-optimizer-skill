@@ -1,0 +1,24 @@
+{
+  "name": "genpark-landing-page-conversion-copy-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Landing page conversion copy headline and CTA optimizer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "headline": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "suggested_headline": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
